@@ -1,0 +1,41 @@
+{
+  "name": "slack-cleverbot",
+  "version": "0.0.1",
+  "description": "I'm not a bot, are you?",
+  "keywords": [
+    "Slack",
+    "bot",
+    "cleverbot",
+    "jokes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phillaf/slack-cleverbot"
+  },
+  "bugs": {
+    "url": "https://github.com/phillaf/slack-cleverbot/issues"
+  },
+  "main": "lib/bot.js",
+  "bin": {
+    "bot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
+  "author": {
+    "name": "Philippe Lafrance",
+    "email": "phil@gintonicweb.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "async": "^1.4.1",
+    "cleverbot.io": "^1.0.4",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.0.10"
+  }
+}
