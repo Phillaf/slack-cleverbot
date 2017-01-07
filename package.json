@@ -1,7 +1,7 @@
 {
   "name": "slack-cleverbot",
   "version": "0.0.1",
-  "description": "I'm not a bot, are you?",
+  "description": "V: I'm not a bot, are you? E: No, I'm human.",
   "keywords": [
     "Slack",
     "bot",
@@ -23,8 +23,8 @@
     "start": "node bin/bot.js"
   },
   "author": {
-    "name": "Philippe Lafrance",
-    "email": "phil@gintonicweb.com"
+    "name": "Phittucini Lafredance",
+    "email": "phif@nerdz.com"
   },
   "license": "MIT",
   "engines": {
