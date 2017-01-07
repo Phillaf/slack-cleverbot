@@ -105,7 +105,6 @@ export default function Bot({
      * Start bot
      */
     function run() {
-
         console.log('Starting Bot...');
 
         cleverbot = new CleverBot(cleverbotUser, cleverbotKey);
@@ -116,11 +115,6 @@ export default function Bot({
 
         slackbot.on('start', async () => {
             botUser = await slackbot.getUser(name);
-        });
-
-        slackbot.on('start', () => {
-            slackbot.getUser(name)
-                .then(user => { botUser = user; });
         });
 
         slackbot.on('message', onMessage);
