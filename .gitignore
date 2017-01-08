@@ -1,4 +1,8 @@
-node_modules
+# FOLDERS
 dist
-config.js
+node_modules
+
+# FILES
 *.log
+config.js
+docker-compose.override.yml
