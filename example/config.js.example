@@ -1,0 +1,7 @@
+export default {
+    token: '_token_here_',
+    name: '_name_here_',
+    cleverbotUser: '_user_here_',
+    cleverbotKey: '_key_here_',
+    conversationDuration: 1000 * 60 * 10,
+};
