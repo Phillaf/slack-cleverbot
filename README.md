@@ -1,5 +1,7 @@
 # Slack Cleverbot
 
+A slackbot integration of [cleverbot](http://www.cleverbot.com/).
+
 ## Configuration
 
 Copy `example/config.js.example` to `example/config.js` and update it with your own tokens.
