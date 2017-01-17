@@ -2,20 +2,20 @@
 
 A slackbot integration of [cleverbot](http://www.cleverbot.com/).
 
-## Configuration
+```
+npm install slack-cleverbot
+```
 
-Copy `example/config.js.example` to `example/config.js` and update it with your own tokens.
+## Getting started
 
-## Installation
-
-Installation using npm and node 7.4
+Copy `example/config.js.example` to `example/config.js` and update it with your own tokens. Then run
 
 ```
 npm install
 npm run start
 ```
 
-Installation using docker and docker-compose
+## Docker installation
 
 ```
 docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) node:latest npm install
