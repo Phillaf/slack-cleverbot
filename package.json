@@ -20,7 +20,8 @@
     "start": "babel-node example",
     "start:dev": "nodemon example --exec babel-node",
     "build": "npm run clean && babel src -d dist",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "prepublish": "npm run clean && npm run build"
   },
   "author": {
     "name": "Philippe Lafrance",
