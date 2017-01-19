@@ -16,6 +16,9 @@
     "url": "https://github.com/phillaf/slack-cleverbot/issues"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "start": "babel-node example",
     "start:dev": "nodemon example --exec babel-node",
